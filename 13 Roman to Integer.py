@@ -18,12 +18,12 @@ class Solution:
                 z1.append(500)
             if z[i]=='M':
                 z1.append(1000)
-        print(z1)
+ 
         for i in range(0, len(z1)-1):
             if z1[i]<z1[i+1]:
                 z1[i]=-z1[i]
-        print(z1)
+
         z2=sum(z1)
-        print(z2)
+  
         return z2
             
