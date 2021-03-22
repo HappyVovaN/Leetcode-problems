@@ -7,6 +7,4 @@ class Solution:
         num3=num1+K
         num3_str=str(num3) 
         num3_list=list(num3_str)
-        for i in range(0,len(num3_list)):
-            num3_list[i]=int(num3_list[i])
         return num3_list 
